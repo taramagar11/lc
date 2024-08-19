@@ -26,6 +26,13 @@ import Sports from './components/Picks/sports';
 import Art from './components/Picks/art';
 
 
+import Contact from './components/Footer/contact';
+import Help from './components/Footer/help';
+import Jobs from './components/Footer/jobs';
+import Terms from './components/Footer/terms';
+import Privacy from './components/Footer/privacy';
+
+
 
 
 const App = () => {
@@ -40,9 +47,6 @@ const App = () => {
         <Route path='/topics' element={<Topics />} />
         <Route path='/club' element={<Club />} />
 
-
-
-
         <Route path="/python" element={<Python/>} />
         <Route path="/dot" element={<Dot/>} />
         <Route path="/java" element={<Java/>} />
@@ -55,6 +59,15 @@ const App = () => {
         <Route path="/vlogs" element={<Vlogs/>} />
         <Route path="/sports" element={<Sports/>} />
         <Route path="/art" element={<Art/>} />
+
+        
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/help' element={<Help/>} />
+        <Route path='/jobs' element={<Jobs/>} />
+        <Route path='/privacy' element={<Privacy/>} />
+        <Route path='/terms' element={<Terms/>} />
+
+
       </Routes>
       <Footer />
     </Router>
