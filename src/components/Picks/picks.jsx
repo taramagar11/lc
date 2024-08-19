@@ -10,9 +10,11 @@ import Art from "../../assets/art.jpg";
 const Picks = () => {
     return (
         <div className="bg-[#2A30AB] text-white py-8 flex flex-col items-center">
+          <Link to="/Student">
           <p className="text-3xl font-bold mt-6" style={{ fontFamily: 'Arial' }}>
             Student Picks 
           </p>
+          </Link>
           <div className="grid grid-cols-3 gap-6 mt-6 mx-4 sm:mx-8 lg:mx-16">
         <Link to="/music" className="bg-[#6168CF] h-48 w-full flex items-center p-4">
           <img src={Music} alt="Example" className="h-32 w-32 mr-4" />
